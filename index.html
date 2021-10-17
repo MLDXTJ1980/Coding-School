@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding School</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- css-jquery -->
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Coding School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!--ms:margin start = margin left  -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div class="nav-link text-light">Frontend</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link text-light">Backend</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link text-light">MySQL</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--  -->
+    <section class="p-5 bg-dark text-light text-center text-sm-start">
+        <!--"p-5": padding:5rem-->
+        <div class="container">
+            <div class="d-flex">
+                <div>
+                    <h1>
+                        Become a <span class="text-warning">frontend developer</span>
+                    </h1>
+                    <!-- my-4: margin-top and margin-bottom -->
+                    <p class="my-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sunt repellat laborum dolorum molestias quasi. Consequatur enim consequuntur, magnam iure animi doloribus repellat sint earum cum dolorem impedit praesentium quis?
+                    </p>
+                    <button class="btn btn-primary btn-lg">
+              Start your coding trip
+            </button>
+                </div>
+                <img src="./images/pic02.jpg" alt="showcase" class="w-50 d-none d-md-block" />
+                <!--"w-50 d-none d-md-block": width:50%, defalt display none, in md block -->
+            </div>
+        </div>
+    </section>
+    <section class="p-5 bg-primary text-light">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-2">Register now to start coding</h3>
+                <div class="input-group reg-ipt">
+                    <input type="text" class="form-control" placeholder="Please enter your email" />
+                    <!-- class w-50 doesnot work in flex, need to define a css-->
+                    <button class="btn bg-dark text-light btn-lg">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <!-- "row g-4"4: gap between the col in the row-->
+            <!-- "col-md": in md showed as col(all the rows showed in a line) -->
+            <div class="row g-4">
+                <div class="col-md ">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title ">Frontend Knowledge</div>
+                            <div class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus harum vitae nisi obcaecati maxime corporis iste minima suscipit, commodi officia libero
+                            </div>
+                            <a href="#" class="btn btn-dark mt-3">Learn now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title ">Backend Knowledge</div>
+                            <div class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus harum vitae nisi obcaecati maxime corporis iste minima suscipit, commodi officia libero
+                            </div>
+                            <a href="#" class="btn btn-dark mt-3">Learn now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title ">Datenbank Knowledge</div>
+                            <div class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus harum vitae nisi obcaecati maxime corporis iste minima suscipit, commodi officia libero
+                            </div>
+                            <a href="#" class="btn btn-dark mt-3">Learn now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <div class="row align-item-center justify-content-between">
+                <div class="col-md p-5">
+                    <!-- "img-fluid" width:100% height:auto -->
+                    <img src="images/pic03.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+
+                    <h2>Course Introduction</h2>
+                    <!-- "lead": font-size:1.25rem font-weight:300 -->
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, inventore adipisci, voluptatem sapiente quibusdam tenetur illo cumque pariatur!
+                    </p>
+                    <a href="#" class="btn btn-light">read more...</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="p-5 bg-dark text-light">
+        <div class="container ">
+            <div class="row align-item-center justify-content-between ">
+
+                <div class="col-md p-5 ">
+
+                    <h2>Frontend Frameworks</h2>
+                    <!-- "lead": font-size:1.25rem font-weight:300 -->
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, inventore adipisci, voluptatem sapiente quibusdam tenetur illo cumque pariatur!
+                    </p>
+                    <a href="#" class="btn btn-light">read more...</a>
+                </div>
+                <div class="col-md p-5">
+                    <!-- "img-fluid" width:100% height:auto -->
+                    <img src="images/pic04.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <h2>Q & A</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Lorem ipsum dolor sit amet Lorem, ipsum dolor?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora numquam quidem tenetur ab molestias, soluta atque. Itaque aspernatur nihil, aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus rem fuga
+                            asperiores iste similique atque magni quas repudiandae nobis assumenda numquam, perspiciatis facilis. Illum quisquam officiis eius minima ducimus exercitationem? </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, eligendi?
+      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati explicabo
+                            sit fugiat recusandae quia nemo molestiae dolorem. Rem, ducimus rerum incidunt doloribus quae iusto cupiditate recusandae quod dolorem nesciunt corrupti! Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cumque in aperiam?
+      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling
+                            up the space to make it look, at least at first glance, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquid provident unde qui, beatae quae harum quis, omnis nostrum dolorum facilis corrupti at eius tempora
+                            cupiditate dicta, blanditiis eligendi explicabo. a bit more representative of how this would look in a real-world application.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-light">
+                Our Instructors
+            </h2>
+            <p class="lead text-center text-md-start text-white mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt neque nobis repudiandae corporis eum itaque ipsam laborum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam fugiat vero, provident reprehenderit suscipit minima
+                debitis similique iusto nesciunt id quisquam, facere, in temporibus eveniet quasi velit ducimus mollitia nostrum! </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/pic05.jpg" class="mb-3 w-50 rounded-circle" alt="">
+                            <h3 class="card-title">James Lee</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem minus, quidem vitae asperiores aliquam praesentium impedit excepturi non.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/pic06.jpg" class="mb-3 w-50 rounded-circle" alt="">
+                            <h3 class="card-title">Mark Brown</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem minus, quidem vitae asperiores aliquam praesentium impedit excepturi non.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/pic07.jpg" class="mb-3 w-50 rounded-circle" alt="">
+                            <h3 class="card-title">Monica Davis</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem minus, quidem vitae asperiores aliquam praesentium impedit excepturi non.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="images/pig.jpg" class="mb-3 w-50 rounded-circle" alt="">
+                            <h3 class="card-title">Peppa Wutz</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque rem minus, quidem vitae asperiores aliquam praesentium impedit excepturi non.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact us</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tel:0176xxxxxxxx</li>
+                <li class="list-group-item">Elmail: xxxx@gmail.com</li>
+                <li class="list-group-item">Add: Berliner Str. 10,13222 Berlin</li>
+
+            </ul>
+        </div>
+    </section>
+    <footer class="p-5 bg-dark text-white text-center">
+        <div class="container">
+            <p class="lead">Copyright@2021 Coding School</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
